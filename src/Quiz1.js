@@ -111,6 +111,7 @@ class Quiz1 extends React.Component {
       }
     
       renderResult() {
+        // eslint-disable-next-line
         this.state.finishedQuiz = true;
         this.setState({ finishedQuiz: true });
         return <Results chosenAnswers={this.state.chosenAnswers}  />;
