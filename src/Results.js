@@ -35,13 +35,11 @@ import mediumRoseImg from "./assets/img/medium-rose.png";
 import expensiveRoseImg from "./assets/img/expensive-rose.png";
 
 import PropTypes from 'prop-types';
-import Rating from '@material-ui/lab/Rating';
 import SentimentVeryDissatisfiedIcon from '@material-ui/icons/SentimentVeryDissatisfied';
 import SentimentDissatisfiedIcon from '@material-ui/icons/SentimentDissatisfied';
 import SentimentSatisfiedIcon from '@material-ui/icons/SentimentSatisfied';
 import SentimentSatisfiedAltIcon from '@material-ui/icons/SentimentSatisfiedAltOutlined';
 import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
-import Box from '@material-ui/core/Box';
 
 
 var firstChoice = '';
@@ -100,12 +98,16 @@ class Results extends React.Component {
     }
 
     findWine1() {   
+        // eslint-disable-next-line
         this.state.chosenAnswers = this.props.location.state;
+        // eslint-disable-next-line
         this.state.finishedQuiz = this.props.finishedQuiz;
         if (!this.state.chosenAnswers) {
+            // eslint-disable-next-line
             this.state.finishedQuiz = false;
             return;
         }
+        // eslint-disable-next-line
         this.state.expense = this.state.chosenAnswers.chosenAnswers[0].answer;
 
         var answers = this.state.chosenAnswers;
