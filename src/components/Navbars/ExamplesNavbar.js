@@ -109,11 +109,6 @@ function ExamplesNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/results" tag={Link}>
-                <i className="fa fa-glass" /> Recommendations
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/"

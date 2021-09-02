@@ -25,8 +25,8 @@ class Intro extends React.Component {
                   <h2 className="title">What is Wine Smart?</h2>
                   <h5 className="description">
                     Wine Smart is an app for wine-junkies and newbies alike. Our 
-                    one-of-a-kind algorithm matches users to wines they would potentially 
-                    like based on their responses to our 60-second quiz. Each recommendation
+                    website matches users to wines they would potentially 
+                    like based on their responses to our quiz. Each recommendation
                     comes with a full description of the wine including food pairing 
                     suggestions, price, and where to purchase. What more could you ask for?
                   </h5>

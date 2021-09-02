@@ -201,20 +201,6 @@ class Results extends React.Component {
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
                     </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="shiraz-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    this.updateRating(newValue, "Shiraz");
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
-                    </ListGroupItem>
                 </ListGroup>
             </Card>
         )
@@ -245,20 +231,6 @@ class Results extends React.Component {
                     </ListGroupItem>
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
-                    </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="cabernet-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("Cabernet Sauvignon", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
                     </ListGroupItem>
                 </ListGroup>
             </Card>
@@ -291,20 +263,6 @@ class Results extends React.Component {
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
                     </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="merlot-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("Merlot", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
-                    </ListGroupItem>
                 </ListGroup>
             </Card>
         )
@@ -335,20 +293,6 @@ class Results extends React.Component {
                     </ListGroupItem>
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
-                    </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="pinot-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("Pinot Grigio", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
                     </ListGroupItem>
                 </ListGroup>
             </Card>
@@ -381,20 +325,6 @@ class Results extends React.Component {
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
                     </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="chardonnay-rating"
-                                defaultValue={4}
-                                getLabelText={(value) => customIcons[value].label}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("Chardonnay", newValue);
-                                }}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
-                    </ListGroupItem>
                 </ListGroup>
             </Card>
         )
@@ -425,20 +355,6 @@ class Results extends React.Component {
                         </ListGroupItem>
                         <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
-                        </ListGroupItem>
-                        <ListGroupItem>
-                            <Box component="fieldset" mb={0} borderColor="transparent">
-                                <p>Were you satisfied with this recommendation?</p>
-                                <Rating
-                                    name="sauvignon-rating"
-                                    defaultValue={4}
-                                    onChange={(event, newValue) => {
-                                        rating_map.set("Sauvignon Blanc", newValue);
-                                    }}
-                                    getLabelText={(value) => customIcons[value].label}
-                                    IconContainerComponent={IconContainer}
-                                />
-                            </Box>
                         </ListGroupItem>
                     </ListGroup>
                 </Card>
@@ -472,20 +388,6 @@ class Results extends React.Component {
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
                     </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="sangria-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("Sangria", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
-                    </ListGroupItem>
                 </ListGroup>
             </Card>
         )
@@ -516,20 +418,6 @@ class Results extends React.Component {
                     </ListGroupItem>
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
-                    </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="moscato-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("Moscato", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
                     </ListGroupItem>
                 </ListGroup>
             </Card>
@@ -564,20 +452,6 @@ class Results extends React.Component {
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
                     </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="rose-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("White Zinfandel", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
-                    </ListGroupItem>
                 </ListGroup>
                 </Card>
             )
@@ -593,20 +467,6 @@ class Results extends React.Component {
                     </ListGroupItem>
                     <ListGroupItem>
                         <Card.Link variant="bottom" target='_blank' href = {link}>Buy Now $({price})</Card.Link>
-                    </ListGroupItem>
-                    <ListGroupItem>
-                        <Box component="fieldset" mb={0} borderColor="transparent">
-                            <p>Were you satisfied with this recommendation?</p>
-                            <Rating
-                                name="zinfandel-rating"
-                                defaultValue={4}
-                                onChange={(event, newValue) => {
-                                    rating_map.set("White Zinfandel", newValue);
-                                }}
-                                getLabelText={(value) => customIcons[value].label}
-                                IconContainerComponent={IconContainer}
-                            />
-                        </Box>
                     </ListGroupItem>
                 </ListGroup>
                 </Card>
@@ -641,7 +501,7 @@ class Results extends React.Component {
         this.findWine1()
         return (
             <>
-            <p className = "results-text">Based on your responses, you might like the following wines:</p>
+            <p className = "results-text">Our AI assistant will recommend the following wines based on your responses:</p>
             <CardDeck className = "results-card">
                 {this.getWine(firstChoice)}
                 {this.getWine(secondChoice)}
@@ -681,9 +541,8 @@ class Results extends React.Component {
                             <Button
                                 className="btn-round"
                                 class="info"
-                                onClick={this.getUsage}
                                 >
-                                Get Research Information
+                                Please read this page carefully and go back to survey (Qualtrics) to put code "W3"
                             </Button>
                         </Card>
                         

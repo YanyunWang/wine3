@@ -86,6 +86,9 @@ body {
 .results-text {
   padding-top: 20px;
   padding-left: 30px;
+  font-size: 35px;
+  color: green;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {
